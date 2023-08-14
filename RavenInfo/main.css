@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Empêche le défilement */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#background-video {
+    display: none; /* Cacher la vidéo pour éviter la superposition */
+}
+
+#screens-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.screens img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #ddd;
+    z-index: 1; /* Met les images par-dessus le fond */
+}
